@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#g6)" />
+  <rect x="180" y="220" width="460" height="180" rx="32" fill="#fff" opacity="0.1" />
+  <circle cx="320" cy="290" r="32" fill="#fff" opacity="0.15" />
+  <rect x="400" y="265" width="140" height="16" rx="8" fill="#fff" opacity="0.12" />
+  <text x="50%" y="34%" text-anchor="middle" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700">Asset</text>
+  <text x="50%" y="46%" text-anchor="middle" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="24">Management</text>
+</svg>
