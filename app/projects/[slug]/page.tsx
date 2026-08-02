@@ -7,7 +7,7 @@ type Params = {
 };
 
 type Props = {
-  params: Params | Promise<Params>;
+  params: Promise<Params>;
 };
 
 function getProject(slug: string) {
