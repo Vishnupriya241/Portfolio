@@ -1,3 +1,5 @@
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export const personalInfo = {
   name: "Vishnupriya S",
   fullName: "Vishnupriya S",
@@ -162,7 +164,7 @@ export const projects = [
   description:
     "Contributed to an enterprise AI monitoring and observability platform that automated model onboarding, performance monitoring, drift detection, and Agentic AI traceability through centralized monitoring and telemetry pipelines.",
 
-  image: "/images/ai-observability-dashboard.svg",
+  image: basePath + "/images/ai-observability-dashboard.svg",
 
   tech: [
     "Python",
@@ -263,7 +265,7 @@ export const projects = [
   description:
     "Contributed to the enhancement of an enterprise AI-powered document search and Q&A platform using Retrieval-Augmented Generation (RAG), enabling scalable knowledge discovery and context-aware responses grounded in organizational documents.",
 
-  image: "/images/rag-chatbot.svg",
+  image: basePath + "/images/rag-chatbot.svg",
 
   tech: ["Python", "Amazon Bedrock", "Claude", "AWS"],
 
@@ -353,7 +355,7 @@ export const projects = [
   description:
     "Designed and developed a centralized email notification microservice used across multiple enterprise applications to deliver automated system notifications, approval updates, workflow alerts, and operational communications.",
 
-  image: "/images/notification-service.svg",
+  image: basePath + "/images/notification-service.svg",
 
   tech: ["NestJS", "MongoDB", "SMTP", "NGINX", "PM2"],
 
@@ -434,7 +436,7 @@ export const projects = [
   description:
     "Led the modernization of a legacy asset management platform by redesigning workflows, improving user experience, and developing a scalable web application for managing asset requests, locker allocations, and vehicle pass processes.",
 
-  image: "/images/asset-management.svg",
+  image: basePath + "/images/asset-management.svg",
 
   tech: ["React.js", "NestJS", "PostgreSQL", "MSAL", "JWT"],
 
@@ -518,7 +520,7 @@ export const projects = [
   description:
     "Led the modernization of a legacy gatepass management platform by redesigning approval workflows, improving user experience, and building a scalable web application for managing IT and non-IT asset movement requests across the organization.",
 
-  image: "/images/gatepass-management.svg",
+  image: basePath + "/images/gatepass-management.svg",
 
   tech: ["React.js", "NestJS", "PostgreSQL", "MSAL", "JWT"],
 
@@ -605,7 +607,7 @@ export const projects = [
   description:
     "Enhanced and maintained an employee onboarding platform that streamlined onboarding workflows, task tracking, document management, and onboarding progress visibility for HR teams.",
 
-  image: "/images/onboarding-management.svg",
+  image: basePath + "/images/onboarding-management.svg",
 
   tech: ["React.js", "NestJS", "SQL Server", "MSAL"],
 
@@ -673,7 +675,7 @@ export const projects = [
     slug: "finance-management",
     description:
       "A finance management system to automate expense tracking, approvals, and reconciliation across teams.",
-    image: "/images/finance-management.svg",
+    image: basePath + "/images/finance-management.svg",
     tech: ["Node.js", "Angular", "SQL Server", "OAuth2.0"],
   details: {
     role: "Backend Engineer",
@@ -743,7 +745,7 @@ export const projects = [
   description:
     "Enhanced and supported an enterprise people management platform used for resource allocation, workforce planning, reporting, and employee project assignments.",
 
-  image: "/images/people-management.svg",
+  image: basePath + "/images/people-management.svg",
 
   tech: ["Node.js", "Angular", "PostgreSQL", "OAuth2.0"],
 
