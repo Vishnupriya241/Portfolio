@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#g2)" />
+  <path d="M140 160h520v190H140z" fill="#fff" opacity="0.08" rx="32" />
+  <circle cx="200" cy="220" r="30" fill="#fff" opacity="0.18" />
+  <circle cx="590" cy="270" r="45" fill="#fff" opacity="0.14" />
+  <text x="50%" y="40%" text-anchor="middle" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700">RAG Chatbot</text>
+  <text x="50%" y="54%" text-anchor="middle" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="22">Retrieval-augmented AI assistant</text>
+</svg>
