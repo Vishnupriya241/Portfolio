@@ -1,4 +1,5 @@
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const basePath = "/Portfolio"
+// process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export const personalInfo = {
   name: "Vishnupriya S",
