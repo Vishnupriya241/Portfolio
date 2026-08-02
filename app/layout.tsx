@@ -24,7 +24,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://vishnupriya.dev"),
-  title: `${personalInfo.fullName} — Full Stack Developer`,
+  title: `${personalInfo.fullName} — Senior Software Engineer`,
   description: personalInfo.summary,
   keywords: [
     "Full Stack Developer",
