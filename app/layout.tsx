@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   title: `${personalInfo.fullName} — Senior Software Engineer`,
   description: personalInfo.summary,
   keywords: [
-    "Full Stack Developer",
+    "Senior Software Engineer",
     "Node.js Developer",
     "AWS",
     "Next.js",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: personalInfo.fullName }],
   openGraph: {
-    title: `${personalInfo.fullName} — Full Stack Developer`,
+    title: `${personalInfo.fullName} — Senior Software Engineer`,
     description: personalInfo.summary,
     url: "https://vishnupriya.dev",
     siteName: personalInfo.fullName,
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${personalInfo.fullName} — Full Stack Developer`,
+    title: `${personalInfo.fullName} — Senior Software Engineer`,
     description: personalInfo.summary,
   },
   robots: {
